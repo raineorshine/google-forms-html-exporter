@@ -93,7 +93,7 @@ let bootstrapForm = Handlebars.compile(`
                 <label>
                     <input type="radio" name="entry.{{f.widgets.0.id}}" value="__other_option__" {{#if f.widgets.0.required}}required{{/if}}>
                 </label>
-                <input type="text" name="entry.{{f.widgets.0.id}}.other_option_response" placeholder="custom value">
+                <input type="text" name="entry.{{f.widgets.0.id}}.other_option_response" placeholder="Other">
                 {{else}}
                 <label>
                     <input type="radio" name="entry.{{f.widgets.0.id}}" value="{{c.label}}" {{#if f.widgets.0.required}}required{{/if}}>
@@ -111,7 +111,7 @@ let bootstrapForm = Handlebars.compile(`
                 <label>
                     <input type="checkbox" name="entry.{{f.widgets.0.id}}" value="__other_option__" {{#if f.widgets.0.required}}required{{/if}}>
                 </label>
-                <input type="text" name="entry.{{f.widgets.0.id}}.other_option_response" placeholder="custom value">
+                <input type="text" name="entry.{{f.widgets.0.id}}.other_option_response" placeholder="Other">
                 {{else}}
                 <label>
                     <input type="checkbox" name="entry.{{f.widgets.0.id}}" value="{{c.label}}" {{#if f.widgets.0.required}}required{{/if}}>
